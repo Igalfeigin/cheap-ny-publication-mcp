@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.cheapnypublication/ny-llc",
+  "title": "Cheap NY Publication: New York LLC filings",
+  "description": "Look up any New York LLC: publication deadline, county and price. Quotes for NY LLC filings.",
+  "version": "1.0.0",
+  "websiteUrl": "https://cheapnypublication.com/ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cheapnypublication.com/mcp"
+    }
+  ]
+}

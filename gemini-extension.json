@@ -1,0 +1,11 @@
+{
+  "name": "cheap-ny-publication",
+  "version": "1.0.0",
+  "description": "New York LLC publication deadlines, prices and filings, from the state's live register.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cheap-ny-publication": {
+      "httpUrl": "https://cheapnypublication.com/mcp?client=gemini"
+    }
+  }
+}
